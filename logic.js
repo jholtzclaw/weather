@@ -3,8 +3,8 @@
 const opts = {
     key: 'l89NU2nczduLb4zwodOBPiTmZXF1Elx9',
     verbose: true,
-    lat: (30.25 - 1.5),
-    lon: -97.75, //ATX coordinates
+    lat: (35.93),
+    lon: -85.46, //STN coordinates
     zoom: 8,
 };
 
@@ -15,7 +15,7 @@ windyInit(opts, windyAPI => {
     console.log(windyAPI);
 
     L.popup()
-        .setLatLng([30.25, -97.75])
+        .setLatLng([35.93, -85.46])
         .setContent('Home')
         .openOn(map);
         
