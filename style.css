@@ -73,9 +73,7 @@ iframe {
     height: 100%;
 }
 
-/* ALL `ASIDE` |================|
-components and content here:
-Search, Locale buttons, settings menu */
+
 .aside{
     display: flex;
     position: fixed;
@@ -181,11 +179,7 @@ Search, Locale buttons, settings menu */
     border-radius: 4px;
     border: 1px solid white;
 }
-/* ALL `WEATHER` |================|
-componenets and content here:
-temp-high, temp-low
-temp
-latitude, logitude*/
+
 
 .weather {
     display: flex;
@@ -247,9 +241,7 @@ latitude, logitude*/
     text-align: center;
     text-justify: center;
 }
-/* ALL `OVERLAY` |================|
-components and content here:
-overlay-1, overlay 2, and dropdowns*/
+
 .overlay-1, .overlay-2 {
     color: rgba(255, 255, 255, 0.5);
     display: flex;
